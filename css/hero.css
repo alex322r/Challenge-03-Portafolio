@@ -3,6 +3,7 @@
 
     display: flex;
     flex-direction: row;
+    
     justify-content: space-between;
     align-items: center;
     padding: 0px;
@@ -71,12 +72,14 @@
 
 .hero__top__links {
     /* Auto layout */
-
+    width: 467px;
+    height: 24px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items:center;
     padding: 0px;
     gap: 32px;
+    
     
 
 
@@ -95,26 +98,17 @@
     align-items: center;
     padding: 0px;
     gap: 4px;
+    
     height: 24px;
 
+    
 
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
 /* identical to box height */
 
 
 /* Preto/100% */
 
-    color: #464646;
+    
 
 
 /* Inside auto layout */
@@ -122,6 +116,21 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+.hero__top__links__link img {
+    width: 18px;
+    height: 18px;
+    
+}
+
+.hero__top__links__link a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #464646;
 }
 
 .hero__img {
@@ -138,4 +147,73 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+
+@media screen and (max-width: 480px) {
+    
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 16px;
+    }
+
+    .hero__img {
+        width: 98px;
+        height: 98px;
+        order:0
+    }
+
+    .hero__top {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+        width: 328px;
+        height: 148px;
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .hero__top__soy {
+        width: 328px;
+        height: 52px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        color: #464646;
+        flex: none;
+        align-self: stretch;
+        
+    }
+
+    .hero__top__soy-formacion {
+        width: 328px;
+        height: 48px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #464646;
+        align-self: stretch;
+    }
+
+    .hero__top__links {
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        width: 318px;
+        height: 16px;
+    }
+
+
+    
 }
