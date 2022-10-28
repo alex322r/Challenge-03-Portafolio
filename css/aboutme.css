@@ -1,0 +1,40 @@
+.aboutme {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 10px;
+    background: #EAF2FD;
+
+    /* Inside auto layout */
+
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.aboutme__conteiner__title {
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.aboutme__conteiner__info {
+    width: 751px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Preto/100% */
+
+    color: #464646;
+}
+
