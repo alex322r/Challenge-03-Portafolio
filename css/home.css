@@ -1,10 +1,6 @@
 
-
-
 .home {
-    background-color: #f5f5f5;
+    background: #f5f5f5;
+    font-family: 'Raleway';
 }
 
-.navbar {
-    text-decoration: none;
-}

@@ -1,41 +1,61 @@
 .aboutme {
-    /* Auto layout */
-
     display: flex;
+    width: 100%;
     flex-direction: column;
-    
     align-items: center;
-    padding: 64px;
-    gap: 10px;
+    padding: 64px 0;
+    gap:10px;
     background: #EAF2FD;
 
-    /* Inside auto layout */
-
-    flex: none;
-    align-self: stretch;
-    flex-grow: 0;
 }
+
+.aboutme__conteiner {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 16px;
+}
+
 .aboutme__conteiner__title {
-    height: 38px;
-    font-family: 'Raleway';
+
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    line-height: 38px;
     color: #464646;
+    align-self: flex-start;
 }
 
 .aboutme__conteiner__info {
-    width: 751px;
-    
-    font-family: 'Raleway';
+
+    width: 751px;    
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    color: #464646;  
+}
 
-    /* Preto/100% */
+.aboutme__conteiner__img {
+    align-self: flex-start;
+}
 
-    color: #464646;
+@media screen and (max-width: 480px) {
+    .aboutme{
+        
+    }
+    
+    .aboutme__conteiner {
+        
+    }
+
+    .aboutme__conteiner__title {
+        
+    }
+
+    .aboutme__conteiner__info {
+        
+    }
 }
 
