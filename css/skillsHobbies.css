@@ -131,5 +131,97 @@
     font-weight: 500;
     font-size: 16;
     color:#464646;
+}
+
+@media screen and (max-width: 480px) {
+
+    .skillsHobbies {
+        width: 100%;
+        gap: 0;
+    }
+
+    .skillsHobbies__skills, .skillsHobbies__hobbies {
+
+        padding: 16px 0;
+        gap: 32px;
+
+        width: 360px;
+        height: 484px;
+    }
+
+    .skillsHobbies__skills__title, .skillsHobbies__hobbies__title {
+
+        width: 57px;
+        height: 26px;
+        font-size: 22px;
+    }
+
+    .skillsHobbies__skills__container, .skillHobbies__hobbies__container {
+        width: 360px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 32px 16px;
+    }
+
+    .skillsHobbies__skills__container__skill, .skillHobbies__hobbies__container__hobbie {
+
+        width: 156px;
+        height: 118px;
+    }
+    .skillsHobbies__formacion {
+
+        width: 100%;
+        justify-content: flex-start;
+        padding: 32px 0;
+        gap: 32px;
+    }
+
+    .skillsHobbies__formacion__title {
+
+        width: 233px;
+        height: 26px;
+        font-weight: 700;
+        font-size: 22px;
+
+    }
+
+    .skillHobbies__formacion__container {
+
+        flex-direction: column;
+        gap: 16px;
+        width: 296px;
+        height: 539px;
+        
+    }
+
+    .skillHobbies__formacion__container__acad {
+
+        gap: 8px;
+        width: 296px;
+        height: 169px;
+    }
+
+    .skillHobbies__formacion__container__acad__fig {
+
+        width: 296px;
+        height: 118px;
+    }
+
+    .skillHobbies__formacion__container__acad__esp {
+
+        height: 19px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .skillHobbies__formacion__container__acad__anno {
+
+        height: 16px;
+        font-weight: 500;
+        font-size: 14;
+    }
+
+    
+
 
 }

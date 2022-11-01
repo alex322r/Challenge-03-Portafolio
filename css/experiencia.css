@@ -105,4 +105,100 @@
 }
 
 
+@media screen and (max-width: 480px) {
 
+    .experiencia {
+        width: 360px;
+        height: 1257px;
+        padding: 32px 0;
+        gap: 16px;
+    }
+
+    .experiencia__title {
+        width: 248px;
+        height: 26px;
+        font-size: 22px;
+    }
+
+    .experiencia__items {
+
+        gap: 64px;
+
+        width: 296px;
+    }
+
+    .experiencia__items__item {
+
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        width: 296px;
+        height: 251px;
+    }
+
+    .experiencia__items__item__img {
+
+        width: 296px;
+        height: 144px;
+    }
+
+
+    .experiencia__items__item__info {
+
+        padding: 0px;
+        gap: 8px;
+        width: 296px;
+        height: 91px;
+    }
+
+    .reverse-img {
+
+        order: 0;
+    }
+
+    .reverse-div {
+        order: 1;
+    }
+
+    .experiencia__items__item__info__title {
+
+        width: 296px;
+        height: 19px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .experiencia__items__item__info__desc {
+
+        width: 296px;
+        
+        font-size: 14;
+        font-weight: 500 ;
+    }
+
+    .experiencia__items__item__info__buttons {
+
+        gap: 16px;
+
+        width: 296px;
+        height: 40px;
+    }
+
+    .experiencia__items__item__info__buttons__btn-demo {
+
+        width: 108px;
+        height: 40px;
+        border: 1px solid #2A7AE4;
+        font-size: 14px;
+    }
+
+    .experiencia__items__item__info__buttons__btn-rep {
+
+        width: 108px;
+        height: 40px;
+        border: 1px solid #2A7AE4;
+        font-size: 14px;
+
+    }
+    
+}

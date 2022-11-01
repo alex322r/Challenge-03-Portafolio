@@ -183,6 +183,126 @@
     font-weight: 500;
     font-size: 16px;
     color: #464646;
+}
+
+@media screen and (max-width:480px) {
+    .footer {
+        width: 100%;
+        height: 777px;
+        
+    }
+    .footer__contacto {
+        padding: 32px 0px;
+        gap: 10px;
+        width: 100%;
+        height: 611px;
+        
+    }
+
+    
+
+    
+
+    .footer__contacto__container {
+
+        gap: 32px;
+        padding: 0;
+        width: 296px;
+        height: 611px;
+    }
+
+    .footer__contacto__container__form__top {
+
+        padding: 0px;
+        gap: 8px;
+        width: 296px;
+        
+    }
+
+    .footer__contacto__container__form__top__titulo {
+
+        width: 97px;
+        height: 26px;
+        font-size: 22px;
+    }
+
+    .footer__contacto__container__form__top__content {
+
+        width: 296px;
+        height: 76px;
+        font-size: 16px;
+    }
+
+
+
+    .footer__contacto__container__img {
+        display: none;
+    }
+
+    .footer__contacto__container__form__camps {
+
+        padding: 0px;
+        gap: 32px;
+
+        width: 296px;
+        height: 397px;
+    }
+
+    .footer__contacto__container__form__camps__name, .footer__contacto__container__form__camps__mail {
+
+        padding: 0px;
+        gap: 8px;
+
+        width: 296px;
+        height: 56px;
+        
+
+    }
+
+    .footer__contacto__container__form__camps__name__label, .footer__contacto__container__form__camps__mail__label{
+        padding: 4px 6px;
+        width: 284px;
+        
+        
+    }
+    
+    .footer__contacto__container__form__camps__name__input, .footer__contacto__container__form__camps__mail__input {
+        
+        width: 272px;
+        height: 20px;
+        
+    }
+
+    .footer__contacto__container__form__camps__asunto {
+        padding: 8px 12px;
+        width: 268px;
+        height: 40px;
+        
+    }
+    
+    .footer__contacto__container__form__camps__mensaje {
+        padding: 8px 12px;
+        width: 268px ;
+        height: 109px;
+    }
+
+    .footer__contacto__container__form__btn {
+
+        width: 133px;
+        height: 40px;
+    }
+
+    .footer__copy {
+
+        width: 100%;
+        height: 102px;
+    }
+
+    .footer__copy__autor {
+        width: 229px;
+        height: 38px;
+        font-size: 16px;
+    }
 
 
 }

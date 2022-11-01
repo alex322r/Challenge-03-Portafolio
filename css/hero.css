@@ -1,15 +1,14 @@
 .hero {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 0;
-    
     width: 1136px;
     height: 368px;
 }
 
 .hero__top {
     display: flex;
+    order: 0;
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
@@ -63,40 +62,74 @@
 }
 
 .hero__img {
+    order: 1;
     width: 368px;
     height: 368px;
     border-radius: 50%;
     object-fit: cover;
     object-position: 70%;
+    
   
 }
 
 @media screen and (max-width: 480px) {
     
     .hero {
+        flex-direction: column;
+        padding: 16px 0 0 0;
+        gap: 16px;
+        width: 360px;
+        height: 278px;
         
     }
 
     .hero__img {
+
+        width: 98px;
+        height: 98px;
+        order: 0;
         
+
     }
 
     .hero__top {
-        
+
+        order: 1;
+        gap: 16px;
+        width: 328px;
+        height: 148px;
+    
     }
 
     .hero__top__soy {
-        
+
+        width: 328px;
+        height: 52px;
+        font-size: 22px;
         
     }
 
     .hero__top__soy-formacion {
+
+        width: 328px;
+        height: 48px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
         
     }
 
     .hero__top__links {
 
-        
+        gap: 8px;
+        width: 318px;
+        height: 16px;        
+    }
+
+    .hero__top__links__link {
+        font-weight: 600;
+        font-size: 13px;
+        gap: 0;
     }
 
 }

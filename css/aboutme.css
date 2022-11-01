@@ -6,6 +6,7 @@
     padding: 64px 0;
     gap:10px;
     background: #EAF2FD;
+    
 
 }
 
@@ -44,18 +45,36 @@
 @media screen and (max-width: 480px) {
     .aboutme{
         
+        width: 100%;
+        padding: 16px 0;
+        
     }
     
     .aboutme__conteiner {
+        justify-content: flex-start;
+        gap: 16px;
+        width: 328px;
         
     }
 
     .aboutme__conteiner__title {
+
+        width: 94px;
+        height: 26px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
         
     }
 
     .aboutme__conteiner__info {
-        
+
+        width: 328px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+
     }
 }
 

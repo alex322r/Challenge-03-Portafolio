@@ -4,7 +4,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 32px 0;
-    flex:none;
+    flex: none;
+    
 }
 
 .top__logo {
@@ -21,8 +22,10 @@
 }
 
 .top__logo__txt {
+
     width: 130px;
     height: 19px;
+    font-size: 16px;
 }
 
 .top__navbar {
@@ -31,42 +34,48 @@
     display: flex;
     align-items: center;
     gap: 32px;
+    
 }
 
-.top__navbar__li {
+.top__navbar__li > a {
     height: 19px;
     font-style: normal;
-    
     font-size: 16px;
     line-height: 19px;
     color: #464646;
      
 }
 
-.mail:hover {
-    font-weight: bold; 
-}
+
 
 
 @media screen and (max-width: 480px) {
     
     .top {
+        width: 360px;
+        height: 56px;
+        padding: 0;
+        
         
     }
 
     .top__navbar__li:not(.mail) {
+
+        display: none;
+     
+    }
+
+    .top__navbar__li > a  {
+        font-size: 14px;
         
     }
 
     .top__logo {
-        
 
-    }
-
-    .top__navbar__li:last-child {
+        padding: 0;
+        gap: 8px;
         
     }
-
     
 
 }
